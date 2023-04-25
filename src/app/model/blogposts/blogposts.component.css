@@ -1,0 +1,84 @@
+/* CSS pour le conteneur principal */
+.container {
+    background-color:#ccf6ee;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+    height: 500px;
+}
+
+/* CSS pour les images superposées à gauche */
+.images {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.image1 {
+    position: absolute;
+    top: 18px;
+    left: 17pc;
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
+}
+
+.image2 {
+    position: absolute;
+    bottom: 60px;
+    left: 11pc;
+    width: 200px;
+    height: 220px;
+    border-radius: 70px;
+}
+
+.image3 {
+    position: absolute;
+    top: 0;
+    left :5pc;
+    right: 50px;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.image4 {
+    position: absolute;
+    bottom: 10px;
+    top: 120px;
+    left: 11pc;
+    width: 200px;
+    height: 190px;
+    border-radius: 70px;
+
+}
+
+/* CSS pour le message à droite */
+.message {
+    color: rgb(0, 107, 108);
+    font-size: 62px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+}
+.btn{
+    background-color:  rgb(0, 107, 108);
+    border-radius: 70px;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    color:#ccf6ee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 190px;
+}
+.mes{
+    color: rgb(0, 107, 108);
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

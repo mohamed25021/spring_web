@@ -1,0 +1,38 @@
+<div class="hero">
+
+    <nav>
+        <img src="" class="logo">
+        <ul>
+           
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="">Stage</a></li>
+            <li><a routerLink="/partner">Entreprise</a></li>
+            <li><a href="#">prof</a></li>
+            
+             
+
+        </ul>
+        
+
+</nav>
+    <video autoplay loop muted plays-inline >
+        <source  src="../assets/img/arriere.mp4">
+        
+    </video>
+    
+    <div class="form-container">
+     
+        <form (ngSubmit)="onSubmit()">
+            <label class="nom">name encadrant</label><br>
+            <input [(ngModel)]="prof.name_p " name="nom_prof" type="nom_prof" required>
+            <label  class="nom">email encadrant </label><br>
+            <input [(ngModel)]="prof.email_p" name="email" type="email" required>
+           
+            <label class="error">{{errorMessage}}</label>
+           
+            <button  class="login" type="submit">Save </button>
+          </form>
+    </div>
+   
+
+</div>

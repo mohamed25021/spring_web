@@ -1,0 +1,164 @@
+  .h3 {
+    font-size: 1.825em;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+    color: black;
+  }
+  
+  .simplecard {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .section-tabs {
+    background: #fff;
+  }
+  
+ 
+  
+  .contact-image {
+    height: 370px;
+    width: auto;
+  }
+  
+  .section {
+    padding: 30px 0;
+    position: relative;
+    background: #ffffff;
+  }
+  
+  textarea.form-control {
+    border: 1px solid #e3e3e3;
+    border-radius: 9px;
+  }
+  
+  .form-title {
+    margin-bottom: 5px;
+    font-size: 1.4em;
+  }
+  
+  
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+  } 
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+  }
+ 
+
+
+ 
+  .footer{  position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    font-size: 0.7em;
+    margin-top: 30px;
+  }
+ .input-group{ 
+  position: absolute;
+  z-index: 1;
+ }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .input1 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 80%;
+    
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .input {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    left: 80%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .input3 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 45px;
+    left: 80%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .mat-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+  }
+  .social-icons{  position: absolute;
+    bottom: 0;
+    left: 0;
+     width: 100%;
+     z-index: 1;}
+  .text-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+  }
+  .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 1;
+        
+    }
+ 
+  
+  .table {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,143 @@
+
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero */
+  .hero {
+    height: 100%;
+    width: 100%;
+   
+   position: relative;
+   
+   display: flex;
+   
+   justify-content: center;
+
+  }
+  
+ 
+  .video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 180%;
+    width: auto;
+    filter: brightness(50%);
+  }
+  @media(min-aspect-ratio :16/9){
+    .back-video{
+      width :100%;
+      height: auto;
+    }
+  }
+
+
+  @media(max-aspect-ratio :16/9){
+    .back-video{
+      width :auto;
+      height: 100%;
+    }
+  }
+
+  .hero-content {
+   text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  .hero-content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color : transparent;
+  }
+  
+  .hero-content p {
+   
+    color: #fff;
+    font-weight: 11;
+
+  }
+
+  
+  /* Footer */
+  footer {
+    background-color: #f2f2f2;
+    color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+ 
+  
+  
+ 
+  footer p {
+    margin: 0;
+  }
+  
+  footer span {
+    font-weight: bold;
+  }
+
+  nav{
+    width: 100%;
+    position: absolute;
+    top :0;
+    left :0;
+    
+    display: flex;
+    align-items : center;
+    justify-content: safe;
+
+  }
+  nav .logo{
+    width: 80px;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  .button{
+    display: flex;
+    right: 30px;
+    background-color: transparent;
+   
+    color: #fff;    
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 30px;
+    border-color: transparent;
+  }
+
+  .button:hover{
+    -webkit-text-stroke: 2px #fff;
+    color : transparent;
+  }

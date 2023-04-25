@@ -1,0 +1,51 @@
+/* CSS pour le conteneur principal */
+.container {
+    background-color:#ffbed2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+    height: 500px;
+}
+
+/* CSS pour les images superposées à gauche */
+
+
+/* CSS pour le message à droite */
+.message {
+    color: #a30c4a;
+    font-size: 62px;
+    width: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+}
+.btn{
+    background-color: #a30c4a;
+    border-radius: 70px;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    color:#ccf6ee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 190px;
+}
+.mes{
+    color: #a30c4a;
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back{
+    height: 600;
+     border-radius: 100px;
+    filter: brightness(70%);
+    padding-left: 30px;
+    
+
+  
+    
+}

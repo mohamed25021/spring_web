@@ -1,0 +1,45 @@
+<nav>
+    <img src="../assets/img/logo.png" class="logo">
+    <ul>
+       
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Stage</a></li>
+        <li><a  routerLink="/partner">entreprise</a>
+        </li>
+        <li><a href="#">prof</a></li>
+        
+         
+
+    </ul>
+    
+
+</nav>
+<button class="ajout" (click)="redirectToAutreComposant()" >ajouter + </button>
+<ul class="card-container">
+    
+    <video autoplay loop muted plays-inline >
+        <source  src="../assets/img/arriere.mp4 "controls>
+        
+    </video>
+    <li *ngFor="let prof of profs">
+        
+        <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-subtitle class="nom">name: {{prof.name_p}}</mat-card-subtitle>
+          <mat-card-title class="mail">mail : {{prof.email_p}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          
+          
+          
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="btn1">LIKE</button>
+          <button mat-button class="btn2">SHARE</button>
+        </mat-card-actions>
+        <mat-card-footer>
+          
+        </mat-card-footer>
+      </mat-card></li>
+      
+  </ul>
